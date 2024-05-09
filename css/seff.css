@@ -1,0 +1,26 @@
+@keyframes rgbchangep {
+    0% { background-color: #3532f6; } 
+    25% { background-color: #4d66e2; } 
+    50% { background-color: #37fd00; } 
+    75% { background-color: #18ad31; } 
+    100% { background-color: #2e47c8; } 
+  }
+  body{
+    animation: rgbchangep 7.5s linear infinite; 
+}
+*{
+direction: rtl;
+
+}
+
+.sefaresh{
+
+max-width: 350px !important;
+max-height: 300px;
+margin-top: 300px;
+
+}
+.sefaresh ul li{
+
+    padding-top: 10px !important;
+}
