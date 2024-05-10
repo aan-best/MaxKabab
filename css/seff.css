@@ -16,11 +16,18 @@ direction: rtl;
 .sefaresh{
 
 max-width: 350px !important;
-max-height: 300px;
-margin-top: 300px;
+max-height: 200px;
+
 
 }
 .sefaresh ul li{
 
-    padding-top: 10px !important;
+    padding: 7px !important;
+}
+.logo-seff{
+  margin-top: 70px !important;
+max-width: 375px !important;
+
+z-index: 12;
+margin-bottom: 20px;
 }

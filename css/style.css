@@ -572,7 +572,7 @@ small{
 justify-content: center;
 width: 350px;
 height: 250px;
-background-color: #4d66e2;
+background-color: #ffffff70;
 border-radius: 5px;
     }
     .sefaresh ul li a{
@@ -603,6 +603,7 @@ border-radius: 4px;
         margin-right: 40px;
     }
     .header-tex{
+        box-shadow: 0 0 12px;
         border-radius: 7px;
         animation: rgbchangep3 5.5s linear infinite; 
         padding: 5px;
