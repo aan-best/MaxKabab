@@ -121,8 +121,17 @@
     }
 
     .navbar-dark .navbar-collapse {
-        margin-top: 15px;
-        border-top: 1px solid rgba(255, 255, 255, .1)
+        position: absolute;
+        margin-top: 322px;
+        border-top: 1px solid rgba(255, 255, 255, .1);
+        margin-left: 238px;
+        background-color: #2f8ee1;
+        min-width: 129px;
+        direction: rtl;
+        z-index: 999;
+        border-radius: 7px;
+        transition: 0.2s ease-in-out;
+        box-shadow: 0px 0 24px #2f8ee1;
     }
 
     .navbar-dark .navbar-nav .nav-link,
@@ -485,16 +494,17 @@
 }
 
 .mioo{
-    font-size: 22px;
+    font-size: 28px;
     float: right;
     color: #ffa00c;
     font-family: Lalezar, system-ui !important;
     font-weight: 400;
     font-style: normal !important;
     padding-top: 18px;
-    margin-bottom: -27px;
-    margin-right: 50px;
+    margin-bottom: -20px;
+    margin-right: 0px;
     padding: 5px;
+    direction: rtl;
 }
 .fonito{
       font-family: Lalezar, system-ui !important;
@@ -511,6 +521,7 @@
     75% { background-color: #18ad31; } 
     100% { background-color: #2e47c8; } 
   }
+
 
   @keyframes rgbchangep2 {
     0% { color: #04d1c7; } 
@@ -529,8 +540,8 @@ h5 span{
 
 }
 small{
-color: #991a0e;
-
+    direction: rtl;
+    color: #0a0cabb8;
 }
 .aanm{
     animation: rgbchangep 5.5s linear infinite; 
@@ -591,3 +602,44 @@ border-radius: 4px;
 
         margin-right: 40px;
     }
+    .header-tex{
+        border-radius: 7px;
+        animation: rgbchangep3 5.5s linear infinite; 
+        padding: 5px;
+    font-size: 20px;
+    display: block;
+    margin-top: 77px;
+    text-align: justify;
+    direction: rtl;
+}
+    @keyframes rgbchangep3 {
+    0% { background-color: #e485a5; } 
+    25% { background-color: #91a1ef; } 
+    50% { background-color: #e7fbab; } 
+    75% { background-color: #fcaf86; } 
+    100% { background-color: #e485a5; } 
+  }
+  .text-price{
+    text-shadow: 0px 0 6px #86ef9acf;
+    color: #026e3d;
+  }
+
+  .navbar-nav .dropdown-menu {
+
+    min-width: 130px;
+    position: absolute;
+    z-index: 10000;
+    box-shadow: 0px 0 24px #addcff;
+    background: #addcff;
+    border-radius: 29px;
+   
+}
+.dropdown-item {
+
+text-align: center !important;
+
+}
+.fnam{
+
+    text-shadow: 0px 0 6px #0075ff91;
+}
