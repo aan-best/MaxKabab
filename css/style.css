@@ -644,3 +644,7 @@ text-align: center !important;
 text-align: right;
     text-shadow: 0px 0 6px #0075ff91;
 }
+.rounded22{
+border-radius: 50% !important;
+
+}
