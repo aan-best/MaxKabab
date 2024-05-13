@@ -3,11 +3,17 @@
   src: url(../fonts/bodoni-svtytwo-sc-itc-tt-book.ttf);
 }
 
-@keyframes imgRotate { 
-  100% { 
-      transform: rotate(360deg); 
-  } 
+
+
+@keyframes imgRotate2 {
+  50% {
+      transform: rotate(-45deg);
+  }
+  100% {
+      transform: rotate(45deg);
+  }
 }
+
 
 body {
   font-family: "Lalezar", system-ui !important;
@@ -390,7 +396,7 @@ a:focus {
   width: 100%;
   border: 10px solid #1a1a19;
   border-radius: 100%;
-   animation: imgRotate 50s linear infinite;
+   animation: imgRotate2 10s linear infinite;
 }
 
 .slider_section .slider_container .slick-active .img-box {
